@@ -12,7 +12,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { RouterModule, Routes } from '@angular/router';
 
 
-const AppRoutes:Routes =[
+const appRoutes:Routes =[
   {
     path:'',
     redirectTo:'/products',
@@ -41,7 +41,7 @@ const AppRoutes:Routes =[
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(AppRoutes)
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
