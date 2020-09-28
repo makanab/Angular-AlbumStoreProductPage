@@ -1,6 +1,6 @@
 export interface Track {
-  trackNumber:string;
+  trackNumber:number;
   trackName:string;
-  trackLength:number;
+  trackLength:string;
   trackPrice:number;
 }
